@@ -1,6 +1,5 @@
 import json
 from urllib.request import Request, urlopen
-from urllib import parse
 from bs4 import BeautifulSoup
 
 def get_clean_html(url):
